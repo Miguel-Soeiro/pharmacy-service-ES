@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-@o2@0-f6kj1wbl#o=)2*l#n79#xuogd03)jt9h((@axg6yv26o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-env.eba-3xnmxzmw.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
@@ -75,7 +75,7 @@ WSGI_APPLICATION = "ebdjango.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-
+"""
 DB_ENDPOINT= 'http://localhost:8000'
 DB_TABLE= "my-table"
 """
